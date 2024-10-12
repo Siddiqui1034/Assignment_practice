@@ -1,0 +1,65 @@
+.containerDiv{    
+    display: flex;
+    background-color: blue;
+    padding: 10px;
+    justify-content: center;
+    margin:  0 2% ;
+    /* overflow-x: hidden; */
+    /* max-width:100%;
+    width:100vw; */
+}
+.itemDiv{
+    width: 30%; 
+    /* flex-basis: 100%; */
+    /* flex-grow: 1; */
+} 
+.itemDiv > img{
+    width: 100%;
+    height: auto;
+}
+
+.itemDiv img:first-child{
+    position: relative;
+    animation: firstImage 3s infinite;
+}
+
+@keyframes firstImage{
+0%{
+    top: 100px;
+}
+100%{
+    top:-10px
+}
+}
+.containerDiv>div:last-child{
+    
+}
+
+.buttonDiv{
+    margin: 10%;
+
+}
+
+.buttonDiv button{
+    transform: translate(0px, 100px);
+    color: black;
+    background-color: aquamarine;
+    animation: buttonAnimation 1s linear infinite;
+
+}
+
+@keyframes buttonAnimation {
+    0%{
+        box-shadow: 0 0 0 0 green;
+    }
+    100%{
+        box-shadow: 0 0 0 8px greenyellow;
+    }
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+

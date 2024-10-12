@@ -1,0 +1,25 @@
+/* .parent{
+position: relative;
+}
+.child{
+position: absolute;
+width: 500px;
+height: 500px;
+border-radius: 50%;
+background-color: aliceblue;
+left: 50%;
+margin-bottom: -250px 0 0 -250px;
+} */
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.child{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}

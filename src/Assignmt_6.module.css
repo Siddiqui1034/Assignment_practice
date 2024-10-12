@@ -1,0 +1,27 @@
+.active{
+    /* border: 2px solid red; */
+    background-color: rgb(217, 39, 39);
+}
+.backgroundColor{
+    background-color: aqua;
+    color: black;
+}
+.backgroundDiv{
+    border: 2px solid brown;
+    width: 500px;
+    height: 500px;
+    padding: 200px;
+}
+.backgroundBox {
+    border: 2px solid black;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+}
+ .boxBackgroundColor{
+    background: greenyellow;
+}
+/*
+.backgroundDiv > span:last-child{
+    background: red;
+} */

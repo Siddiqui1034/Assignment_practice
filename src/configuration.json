@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Nausheen",
+        "Loc": "UP",
+        "Email": "google.com@gmail.com",
+        "Mobile": 9898989898,
+        "FirstObjet": "firstobject"
+    },
+    {
+        "name": "Ozair",
+        "Loc": "UP",
+        "Email": "microsoft.com@gmail.com",
+        "Mobile": 9898989898
+    },
+    {
+        "name": "Ozdemir",
+        "Loc": "UP",
+        "Email": "rehan.com@gmail.com",
+        "Mobile": 9898989898
+    },
+    {
+        "name": "Kashifa",
+        "Loc": "UP",
+        "Email": "choice.@gmail.com",
+        "Mobile": 9898989898
+    },
+    {
+        "name": "kaheseh",
+        "Loc": "UP",
+        "Email": "hotmail@gmail.com",
+        "Mobile": 9898989898
+    }
+]

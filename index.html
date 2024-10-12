@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+ <style>
+  /* body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  } */
+  /* .background{
+    background-color: #595656;
+    color: white;
+  } */
+  /* .slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.sliderTrack{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40% linear infinite;
+} 
+.slide{
+ height: 200px;
+ width: 250px;
+ display: flex;
+ align-items: center;
+ padding: 15px;
+ perspective: 100px;
+}
+img{
+    width: 100%;
+    transition: translate 1% ;
+}
+img:hover{
+ transform: translateZ(20px);
+} */
+
+
+/* auto animation */
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*9));
+    }
+    
+}
+
+/* Gradient Shadows */
+
+/* .slider::before, .slider::after{
+    background: linear-gradient(to right, rgb(205, 205, 205) 0%, white 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 1%;
+    z-index: 2;
+}
+
+.slider::before{
+    left: 0;
+    top: 0;
+}
+
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+} */
+
+body{
+  overflow: hidden;
+}
+ </style>
+  </head>
+  <body class="background">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

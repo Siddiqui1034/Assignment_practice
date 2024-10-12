@@ -1,0 +1,59 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 600px;
+    height: 500px;
+}
+
+.boxDiv {
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+.boxDiv>div {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    padding: 3px 0;
+    /* align-items: center; */
+}
+
+.boxDiv>div:hover {
+    color: red;
+    background-color: aliceblue;
+}
+
+.midDiv {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    border: 3px solid green;
+}
+
+.midDiv>button {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* .midDiv button:first-child{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} */
+.midDiv :first-child(button) {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+}
+
+.active{
+    background-color: rgb(211, 22, 22) !important;
+}
