@@ -1,34 +1,47 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './ajax.css'
+// import './ajax.css'
 import "bootstrap/dist/css/bootstrap.css"
-// import MoveLeftToRight from './MoveLeftToRight'
+
+import MoveLeftToRight from './MoveLeftToRight'
 import FileUpload from './ReactPrograms/FileUpload'
 import ReactMemo from './ReactMemo'
 import Carousel from './ReactPrograms/Carousel'
 import ImageScroller from './ReactPrograms/ImageScroller'
 import InfiniteAutoSlider from './ReactPrograms/InfiniteAutoSlider'
 import PrevNext from './ReactPrograms/PrevNext'
-// import { Carousel } from 'bootstrap'
-// import Header from './Header'
-// import AjaxListGrid from './AjaxListGrid';
-
-// import Ajax from './Ajax'
+import Header from './Header'
+import AjaxListGrid from './AjaxListGrid';
+import Ajax from './Ajax'
 // import Pagination from './Pagination'
 // import UseCaseToggle from './UseStateToggleFlags'
 import Filter from './Filter'
 import Sentence from './ReactPrograms/Sentence'
 import Timer from './ReactPrograms/Timer/Timer'
-// import Table from './Table'
-// import AddItemToList from './AddItemToList'
-// import ContextAPI2 from './ContextAPI2'
-// import EventBubbling from './EventBubbling'
+import StarRating from './ReactPrograms/StarRating'
+import SearchBox from './ReactPrograms/SearchBox'
+import CarouselSlide from './ReactPrograms/CarouselSlide/CarouselSlide'
+import Table from './Table'
+import AddItemToList from './AddItemToList'
+import ContextAPI2 from './ContextAPI2'
+import EventBubbling from './EventBubbling'
+import ContextAPI from './ContextAPI'
+import App from './App.jsx'
+import Animation from './Animation.jsx'
+import AddDeletePlayer from './AddDeletePlayer.jsx'
+import Sir4 from './Sir4.jsx'
+import NavBar from './NavBar.jsx'
+import ProgressBar from './ProgressBar.jsx'
+import ToDoList from './ReactPrograms/ToDoList/ToDoList.jsx'
+import PromiseAPI from './ReactPrograms/PromiseAPI/PromiseAPI.jsx'
+import Stopwatch from './ReactPrograms/Stopwatch/Stopwatch.jsx'
+import Checkbox from './ReactPrograms/CheckboxAssignmt/Checkbox.jsx'
+import FolderStructure from './ReactPrograms/FolderStructure/FolderStructure.jsx'
+import SelectAll from './ReactPrograms/SelectAll/SelectAll.jsx'
+import CountryList from './CoderDost/CountryList/CountryList.jsx'
+import DropDown from './ReactPrograms/DropDown/DropDown.jsx'
+import Post from './ReactPrograms/Post/Post.jsx'
 
-// import ContextAPI from './ContextAPI'
-// import App from './App.jsx'
-// import Animation from './Animation.jsx'
-// import './index.css'
-// import AddDeletePlayer from './AddDeletePlayer.jsx'
 
 // import Assignmt_1 from './Assignmt_1.jsx'
 // import Assignmt_2 from './Assignmt_2.jsx'
@@ -50,10 +63,6 @@ import Timer from './ReactPrograms/Timer/Timer'
 // import Assignmt_18 from './Assignmt_18.jsx'
 // import Assignmt_19 from './Assignmt_19.jsx'
 // import Assignmt_20 from './Assignmt_20.jsx'
-// import Sir4 from './Sir4.jsx'
-// import NavBar from './NavBar.jsx'
-// import ProgressBar from './ProgressBar.jsx'
-
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -107,7 +116,20 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   {/* <PrevNext /> */}
   {/* <AddDeletePlayer /> */}
   {/* <Sentence /> */}
-  <Timer />
+  {/* <Timer /> */}
+  {/* <StarRating starCount={5} rating={1} /> */}
+  {/* <SearchBox /> */}
+  {/* <CarouselSlide /> */}
+  {/* <ToDoList /> */}
+  {/* <PromiseAPI /> */}
+  {/* <Stopwatch /> */}
+  {/* <Checkbox /> */}
+  {/* <FolderStructure /> */}
+  {/* <SelectAll /> */}
+  {/* <DropDown /> */}
+  {/* <CountryList /> */}
+ <Post />
+
 
   </React.StrictMode>,
 )

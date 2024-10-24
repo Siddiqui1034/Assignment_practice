@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 
 const Sentence = () => {
-    const [sentence, setSentence] = useState([])
+    const [sentence, setSentence] = useState()
     const handleChange = (eve) =>{
+    // let inputSentence = (eve.target.value).replace // without (/\s+/g, " ") it is also working
     let inputSentence = (eve.target.value).replace(/\s+/g," ")
         // console.log(inputSentence)
        let finalResult = inputSentence.split(" ")                                  

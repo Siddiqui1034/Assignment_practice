@@ -1,0 +1,129 @@
+
+/* 1. */
+/* .container{
+    width: 100%;
+    height: 100%;
+} */
+/* .child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;
+} */
+
+/* 2. With Flex */
+/* .container{
+    display: flex;
+    justify-content: center;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+} */
+
+/* ************************* */
+
+/* .container{
+    position: relative;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+} */
+/* ****************************** */
+
+/* .container{
+    display: flex;
+    align-items: center;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+} */
+
+/* ****************************** */
+
+/* .container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px dashed black;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}  */
+
+/* 
+.container{
+    width: 100%;
+    height: 100%;
+    outline: dashed 1px black;
+    background-color: yellowgreen;
+}
+.child{
+    border: 1px solid blue;
+} */
+
+/* .container{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0px;
+    overflow-y: hidden;
+    border: 1px solid blue;
+    background-color: aqua;
+} */
+
+
+
+.container {
+    background-color: rgb(220, 24, 47);
+   
+    height: 100%; 
+    position: relative; 
+    /* height: 100vh;   */
+
+    /* position: absolute; */
+
+    /* height: 100%;
+    width: 100%; */
+
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+
+    /* display: flex;
+    justify-content: center; */
+
+    /* display: flex;
+    align-items: center; */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+  }
+
+  .child{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    /* margin-top: -25px; */
+    margin-bottom: -25px;
+    /* margin: -25px 0 0 -25px; */
+  }

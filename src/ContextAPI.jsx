@@ -59,6 +59,7 @@
 //*******************************************************************************************************//
 
 // import React, { createContext, useContext, useRef, useState } from 'react'
+
 // const ctxObj = createContext()
 
 // const A = () => {
@@ -157,6 +158,7 @@ const E = () => {
 const ContextAPI = () => {
     const inputRef = useRef()
     const [data, setData] = useState()
+
     const handleClick =()=>{
        const inputData =  inputRef.current.value
        setData(inputData)
@@ -167,7 +169,7 @@ const ContextAPI = () => {
         Parent Component 
         <input type="text" ref={inputRef} />
         <button onClick={handleClick} >Submit</button>
-      <contextObj1.Provider value={data} >
+        <contextObj1.Provider value={data} >
         <contextObj2.Provider value = {{n1: 1, n2: 2, n3: 3}}> 
         <A />
         <B />

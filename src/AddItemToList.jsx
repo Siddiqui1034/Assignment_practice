@@ -3,12 +3,10 @@ import React, { useState, useRef } from 'react'
 const AddItemToList = () => {
     const [row, setRow] = useState([])
     const inputRef = useRef()
-
     // const handleChange = (eve) =>{
     //     const {id, value} = eve.target;
     //     inputRef.current[id] = value;     
     // }
-
     const handleAdd = () =>{
         if(!row.includes(inputRef.current.value)){
             setRow([...row, inputRef.current.value])

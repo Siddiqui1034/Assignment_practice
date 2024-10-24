@@ -1,0 +1,12 @@
+.paginationContainer {
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pageBtn{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+}

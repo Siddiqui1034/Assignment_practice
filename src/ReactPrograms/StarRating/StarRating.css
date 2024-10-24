@@ -1,0 +1,33 @@
+/* 
+.emptyStar{
+    content: 	"&#9734";
+    /* border: 1px solid red;
+    border-radius:50px;
+    width: 25px; 
+    height: 25px; */
+    /* font-size: 25px;
+} */
+/* .filledStar{
+    content: "	&#9733;"; */
+    /* border: 1px solid red;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    background-color: black; */
+/* } */ 
+    
+.star::before {
+    content: '\2606';
+    font-size: 25px;
+  }
+  .star.rated::before {
+    content: '\2605';
+    font-size: 25px;
+    color: rgb(17, 16, 16);
+  }
+
+  .gold{
+    color: yellow;
+    cursor: pointer;
+  }
+  
