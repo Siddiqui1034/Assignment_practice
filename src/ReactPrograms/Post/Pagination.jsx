@@ -4,21 +4,21 @@ import "./Pagination.css";
 const Pagination = ({ pageNo, setPageNo }) => {
   const inputPageRef = useRef();
 
+  // Previous Three Page Array
   const prevThreeArrayNo = Array.from({ length: 3 }, function (_, index) {
     return pageNo - 1 - index;
   });
 
-  // console.log(prevThreeArrayNo)
+  // Condition on Previous Page 
   const array = prevThreeArrayNo.filter((value) => value > 0).reverse();
-  // console.log(array)
+ 
 
+  // Next three Page Array
   const nextThreeArrayNo = Array.from({ length: 4 }, function (_, index) {
     return pageNo + index;
   });
-  console.log(nextThreeArrayNo);
-
+ 
   // NOw combine prethreeArray and nextthreeArray
-  // console.log([...array, ...nextThreeArrayNo])
   const paginationArray = [...array, ...nextThreeArrayNo];
 
   const handlePrev = () => {
@@ -33,17 +33,15 @@ const Pagination = ({ pageNo, setPageNo }) => {
   };
 
   return (
+    
     <div className="paginationContainer">
       <input type="text" ref={inputPageRef} />
       <button onClick={handlePage}>Go</button>
-      {pageNo > 1 ? (
-        <div onClick={handlePrev} className="pageBtn">
-          {"<"}
-        </div>
-      ) : (
-        ""
-      )}
-      {paginationArray?.map((pageArrayValue, index) => {
+
+      { pageNo > 1 ? <div onClick={handlePrev} className="pageBtn">{"<"}</div> : "" }
+      
+      { 
+      paginationArray?.map((pageArrayValue, index) => {
         return (
           <div
             onClick={setPageNo(pageArrayValue)}
@@ -55,10 +53,11 @@ const Pagination = ({ pageNo, setPageNo }) => {
             {pageArrayValue}
           </div>
         );
-      })}
-      <div onClick={handleNext} className="pageBtn">
-        {">"}
-      </div>
+      })
+      }
+
+      <div onClick={handleNext} className="pageBtn">{">"} </div>
+
     </div>
   );
 };

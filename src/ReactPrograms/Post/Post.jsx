@@ -8,15 +8,18 @@ const Post = () => {
   const [pageNo, setPageNo] = useState(5);
 
   useEffect(() => {
-    // const arr =  axios.get('https://picsum.photos/v2/list?page=1&limit=5')
-    const arr = axios.get(
-      `https://picsum.photos/v2/list?page=${pageNo}&limit=5`
-    );
-    arr.then(
-      (res) => setData(res.data)
-      // console.log(res.data)
-    );
-    // console.log(arr);
+    const fetchedData = async () =>{
+      try {
+        // const arr =  axios.get('https://picsum.photos/v2/list?page=1&limit=5')
+        const arr = await axios.get(`https://picsum.photos/v2/list?page=${pageNo}&limit=5`);
+        console.log(arr.data)
+        // setData(arr.data)
+      } catch (error) {
+        console.error("Error fetching Data", error)
+      }  
+    }
+    
+    fetchedData();  
   }, [pageNo]);
 
   return (
