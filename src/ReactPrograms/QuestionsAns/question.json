@@ -1,0 +1,131 @@
+[
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "options": [
+        { "id": "a", "text": "London" },
+        { "id": "b", "text": "Berlin" },
+        { "id": "c", "text": "Paris" },
+        { "id": "d", "text": "Madrid" }
+      ],
+      "correctAnswer": "c",
+      "type": "single",
+      "points": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of these are JavaScript frameworks/libraries?",
+      "options": [
+        { "id": "a", "text": "React" },
+        { "id": "b", "text": "Vue" }
+       
+      ],
+      "correctAnswer": ["a", "b"],
+      "type": "multiple",
+      "points": 2
+    },
+    {
+      "id": 3,
+      "question": "What does HTML stand for?",
+      "options": [
+        { "id": "a", "text": "Hyper Text Markup Language" },
+        { "id": "b", "text": "High Tech Modern Language" },
+        { "id": "c", "text": "Hyper Transfer Markup Language" },
+        { "id": "d", "text": "Home Tool Markup Language" }
+      ],
+      "correctAnswer": "a",
+      "type": "single",
+      "points": 1
+    },
+    {
+      "id": 4,
+      "question": "Select all valid HTTP methods:",
+      "options": [
+        { "id": "a", "text": "GET" },
+        { "id": "b", "text": "POST" },
+        { "id": "c", "text": "SEND" },
+        { "id": "d", "text": "PUT" }
+      ],
+      "correctAnswer": ["a", "b", "d"],
+      "type": "multiple",
+      "points": 2
+    },
+    {
+      "id": 5,
+      "question": "Which of these are valid CSS selectors?",
+      "options": [
+        { "id": "a", "text": "#id" },
+        { "id": "b", "text": ".class" },
+        { "id": "c", "text": "*element" },
+        { "id": "d", "text": "@media" }
+      ],
+      "correctAnswer": ["a", "b", "d"],
+      "type": "multiple",
+      "points": 2
+    },
+    {
+      "id": 6,
+      "question": "What is the default port for HTTP?",
+      "options": [
+        { "id": "a", "text": "80" },
+        { "id": "b", "text": "443" },
+        { "id": "c", "text": "8080" },
+        { "id": "d", "text": "3000" }
+      ],
+      "correctAnswer": "a",
+      "type": "single",
+      "points": 1
+    },
+    {
+      "id": 7,
+      "question": "Which file extensions are commonly used for JavaScript files?",
+      "options": [
+        { "id": "a", "text": ".js" },
+        { "id": "b", "text": ".jsx" },
+        { "id": "c", "text": ".ts" },
+        { "id": "d", "text": ".jpg" }
+      ],
+      "correctAnswer": ["a", "b", "c"],
+      "type": "multiple",
+      "points": 2
+    },
+    {
+      "id": 8,
+      "question": "What does CSS stand for?",
+      "options": [
+        { "id": "a", "text": "Computer Style Sheets" },
+        { "id": "b", "text": "Cascading Style Sheets" },
+        { "id": "c", "text": "Creative Style Sheets" },
+        { "id": "d", "text": "Colorful Style Sheets" }
+      ],
+      "correctAnswer": "b",
+      "type": "single",
+      "points": 1
+    },
+    {
+      "id": 9,
+      "question": "Which of these are valid JavaScript data types?",
+      "options": [
+        { "id": "a", "text": "String" },
+        { "id": "b", "text": "Boolean" },
+        { "id": "c", "text": "Character" },
+        { "id": "d", "text": "Undefined" }
+      ],
+      "correctAnswer": ["a", "b", "d"],
+      "type": "multiple",
+      "points": 2
+    },
+    {
+      "id": 10,
+      "question": "What is the correct way to declare a JavaScript variable?",
+      "options": [
+        { "id": "a", "text": "var name;" },
+        { "id": "b", "text": "variable name;" },
+        { "id": "c", "text": "v name;" },
+        { "id": "d", "text": "var = name;" }
+      ],
+      "correctAnswer": "a",
+      "type": "single",
+      "points": 1
+    }
+  ]

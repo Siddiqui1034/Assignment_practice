@@ -5,20 +5,19 @@ import Pagination from "./Pagination";
 
 const Post = () => {
   const [data, setData] = useState([]);
-  const [pageNo, setPageNo] = useState(5);
+  const [pageNo, setPageNo] = useState(10);
 
   useEffect(() => {
     const fetchedData = async () =>{
       try {
         // const arr =  axios.get('https://picsum.photos/v2/list?page=1&limit=5')
         const arr = await axios.get(`https://picsum.photos/v2/list?page=${pageNo}&limit=5`);
-        console.log(arr.data)
-        // setData(arr.data)
+        // console.log(arr.data)
+        setData(arr.data)
       } catch (error) {
         console.error("Error fetching Data", error)
       }  
-    }
-    
+    } 
     fetchedData();  
   }, [pageNo]);
 

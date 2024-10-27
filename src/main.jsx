@@ -41,6 +41,11 @@ import SelectAll from './ReactPrograms/SelectAll/SelectAll.jsx'
 import CountryList from './CoderDost/CountryList/CountryList.jsx'
 import DropDown from './ReactPrograms/DropDown/DropDown.jsx'
 import Post from './ReactPrograms/Post/Post.jsx'
+import Toggle from './ReactPrograms/Toggle/Toggle.jsx'
+import QueAns from './ReactPrograms/QuestionsAns/QueAns.jsx'
+import Pagination from './ReactPrograms/Pagination/Pagination.jsx'
+import TransferList from './ReactPrograms/TransferList/TransferList.jsx'
+import SelectItem from './ReactPrograms/SelectItem/SelectItem.jsx'
 
 
 // import Assignmt_1 from './Assignmt_1.jsx'
@@ -128,8 +133,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   {/* <SelectAll /> */}
   {/* <DropDown /> */}
   {/* <CountryList /> */}
- <Post />
+  {/* <Post /> */}
+  {/* <Toggle /> */}
+  {/* <QueAns /> */}
 
+  {/* <Pagination />  */}
+
+  {/* <TransferList /> */}
+  <SelectItem />
 
   </React.StrictMode>,
 )

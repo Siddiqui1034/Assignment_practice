@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 2px solid black;
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+}
+
+.items{
+background-color: skyblue;
+color: black;
+margin: 10px 0;
+padding: 10px;
+border-radius: 5px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.checked{
+    background-color: aliceblue;
+    color: black;
+}
+
+.middleBox{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    font-size: 20px !important;
+    margin: 30px;
+    padding: 10px;
+}
